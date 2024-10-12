@@ -1,9 +1,142 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-a,span{
+
+a {
     text-decoration: none;
     display: inline-block;
+}
+
+span, i {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+:root {
+    --btnBackground: #3c4265;
+    --text-color:rgba(193, 73, 9, 0.8);
+}
+.custom-container{
+      width: 1000px;
+      margin: 0 auto;
+}
+
+.navbar {
+    backdrop-filter: blur(2px) ;
+}
+
+.nav-list {
+    font-weight: bold;
+    font-size: small;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+}
+
+.text-var {
+    background-color: var(--btnBackground);
+}
+.custom-text-color{
+    color: var(--text-color);
+}
+.person-info{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.myName{
+    color: var(--btnBackground);
+}
+#Personal-info{
+    background-image: url(/Assets/Images/MyProfile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Learn-More{
+    background-color: var(--text-color);
+}
+.Hire-Me{
+    border: 1px solid var(--text-color);
+    color: black;
+}
+.Hire-Me:hover{
+    background-color: var(--text-color);
+    color: rgb(255, 241, 241);
+}
+.main-section-content{
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+.main-section-content-two{
+    margin-left: 100px;
+}
+.fs-sm{
+    font-size: 14px;
+}
+#services{
+    padding: 150px;
+    background-image: url(/Assets/Images/shape1.png);
+}
+.myServices i{
+    background-color: rgba(255, 181, 141, 0.219);
+    color: rgb(255, 103, 43) ;
+    border-radius: 100%;  
+}
+.myServices i{
+    width: 60px;
+    height: 60px;
+}
+.service-boxes{
+    background-position: bottom;
+       transition:  background-color .3s ease;
+}
+.service-boxes:hover{
+    background-color: rgb(255, 60, 0);
+    color: white !important;
+    background-position: top;
+   
+}
+.service-boxes:hover{
+    i{
+        background-color: #fff;
+    }
+}
+.mb-21{
+    margin-bottom: 21px;
+}
+#contactMe{
+    background-image: url(/Assets/Images/section_bg02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    background-color: rgb(255, 212, 199);
+    margin: 100px 0;
+}
+.contactBg{
+    background-color: rgb(255, 60, 0);
+  
+}
+.contactMe-cont h2{
+         color: rgb(230, 54, 0);
+         
+}
+.feedback-cont{
+    box-shadow: 0px 0px 1px 0px #8d8d8d;
+}
+.title-color{
+    color: rgb(179, 70, 12);
+}
+#work-together{
+    background-image: url(/Assets/Images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
 }
