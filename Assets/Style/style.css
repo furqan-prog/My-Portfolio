@@ -22,6 +22,8 @@ ul {
 :root {
     --btnBackground: #3c4265;
     --text-color:rgba(193, 73, 9, 0.8);
+    --input-color: #a1a1a1;
+    --footerBackground: #080827;
 }
 .custom-container{
       width: 1000px;
@@ -139,4 +141,45 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    color: var(--input-color);
+}
+input::placeholder{
+    color: var(--input-color);
+}
+textarea{
+    width: 400px;
+    height: 150px;
+    outline: none;
+    color: var(--input-color);
+}
+textarea::placeholder{
+    color: var(--input-color);
+}
+.sendMsg-btn{
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+#footer{
+    background-color: var(--footerBackground);
+    color: rgb(162, 162, 162);
+    padding: 130px 10px 30px;
+}
+.mt-120{
+    margin-top: 120px;
 }
